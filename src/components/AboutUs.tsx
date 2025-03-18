@@ -12,7 +12,7 @@ const AboutUs = () => {
           </div>
           <h2 className="section-title">Growing Curious Minds With Love and Care</h2>
           <p className="section-subtitle">
-            At Kiddos Corner, we believe every child is unique and deserves a personalized approach to learning 
+            At Junior Millennium Pre School, we believe every child is unique and deserves a personalized approach to learning 
             that nurtures their natural curiosity and creativity.
           </p>
         </div>

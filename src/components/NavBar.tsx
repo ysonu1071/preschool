@@ -15,7 +15,7 @@ const NavBar = () => {
   }, []);
 
   return (
-    <header 
+    <header
       className={cn(
         "fixed top-0 inset-x-0 z-50 transition-all duration-300",
         isScrolled ? "bg-white/90 backdrop-blur-md shadow-md py-3" : "bg-transparent py-5"
@@ -27,11 +27,17 @@ const NavBar = () => {
             <div className="w-10 h-10 bg-preschool-blue rounded-full flex items-center justify-center">
               <span className="text-white font-display font-bold text-xl">J</span>
             </div>
-            <h1 className="text-xl md:text-2xl font-display font-bold">
-              <span className="text-preschool-blue">Junior</span> 
-              <span className="text-preschool-coral">Millenium</span>
+            <h1 className="text-xl md:text-2xl font-display font-bold leading-tight">
+              <span className="whitespace-nowrap">
+                <span className="text-preschool-blue">Junior</span>
+                <span className="text-preschool-coral">Millennium</span>
+              </span>
+              <span className="block text-xs text-gray-500 uppercase tracking-widest text-center">
+                PRE-SCHOOL
+              </span>
             </h1>
           </a>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center gap-1">
@@ -49,7 +55,7 @@ const NavBar = () => {
           </a>
 
           {/* Mobile Menu Button */}
-          <button 
+          <button
             className="md:hidden text-foreground p-2 rounded-md"
             onClick={() => setIsOpen(!isOpen)}
             aria-label="Toggle menu"

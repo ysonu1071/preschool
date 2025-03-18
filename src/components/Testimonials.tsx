@@ -9,14 +9,14 @@ const Testimonials = () => {
       name: "Sarah Johnson",
       role: "Parent of Emily, Age 4",
       image: "/placeholder.svg",
-      text: "Kiddos Corner has been a blessing for our family. The teachers are attentive and caring, and my daughter has flourished both socially and academically. I'm amazed at how much she's learned in just a few months!",
+      text: "Junior Millennium Pre School has been a blessing for our family. The teachers are attentive and caring, and my daughter has flourished both socially and academically. I'm amazed at how much she's learned in just a few months!",
       rating: 5
     },
     {
       name: "Michael Rodriguez",
       role: "Parent of Twins, Age 3",
       image: "/placeholder.svg",
-      text: "Finding a preschool that could handle our energetic twins was challenging until we discovered Kiddos Corner. The staff is incredible, and the curriculum is the perfect balance of fun and learning. Our boys love going to school every day!",
+      text: "Finding a preschool that could handle our energetic twins was challenging until we discovered Junior Millennium Pre School. The staff is incredible, and the curriculum is the perfect balance of fun and learning. Our boys love going to school every day!",
       rating: 5
     },
     {
