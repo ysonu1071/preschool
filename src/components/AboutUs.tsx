@@ -22,10 +22,17 @@ const AboutUs = () => {
             <div className="absolute -z-10 top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 w-80 h-80 bg-preschool-coral/5 rounded-full blur-3xl"></div>
             
             <div className="relative z-10 aspect-video rounded-2xl overflow-hidden shadow-card">
-              <img 
+              {/* <img 
                 src="/placeholder.svg" 
                 alt="Our preschool facilities" 
                 className="w-full h-full object-cover"
+              /> */}
+              <video
+                src="/videos/preschool-video.mp4"  
+                className="w-full h-full object-cover"
+                autoPlay
+                loop
+                muted
               />
               <div className="absolute inset-0 bg-gradient-to-t from-black/30 to-transparent"></div>
               
@@ -36,7 +43,7 @@ const AboutUs = () => {
                   </div>
                   <div>
                     <h3 className="font-display font-bold text-lg">Our Story</h3>
-                    <p className="text-sm text-foreground/70">Founded in 2010 with a mission to reimagine early education</p>
+                    <p className="text-sm text-foreground/70">Founded in 2024 with a mission to reimagine early education</p>
                   </div>
                 </div>
               </div>
