@@ -94,11 +94,14 @@ const Footer = () => {
             © {new Date().getFullYear()} Junior Millenium Preschool. All rights reserved.
           </p>
 
-          {/* <div className="flex flex-wrap gap-4 text-sm text-foreground/60">
-            <a href="#" className="hover:text-preschool-blue transition-colors">Privacy Policy</a>
+          <div className="flex flex-wrap gap-4 text-sm text-foreground/60">
+            {/* <a href="#" className="hover:text-preschool-blue transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-preschool-blue transition-colors">Terms of Service</a>
-            <a href="#" className="hover:text-preschool-blue transition-colors">Cookie Policy</a>
-          </div> */}
+            <a href="#" className="hover:text-preschool-blue transition-colors">Cookie Policy</a> */}
+            <a href='https://www.linkedin.com/in/sonu-kumar-40a09315b/' className='cursor-pointer'>
+          <span>Developed By Sonu Kumar</span>
+        </a>
+          </div>
         </div>
       </div>
 
@@ -116,11 +119,11 @@ const Footer = () => {
         <span>for children</span>
       </div>
 
-      <div className="absolute bottom-10 right-16 text-foreground/60 text-sm flex underline items-center gap-1 ">
+      {/* <div className="absolute bottom-10 right-16 text-foreground/60 text-sm flex underline items-center gap-1 ">
         <a href='https://www.linkedin.com/in/sonu-kumar-40a09315b/' className='cursor-pointer'>
           <span>Developed By Sonu Kumar</span>
         </a>
-      </div>
+      </div> */}
     </footer>
   );
 };

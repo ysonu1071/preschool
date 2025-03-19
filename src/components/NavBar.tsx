@@ -21,7 +21,7 @@ const NavBar = () => {
         isScrolled ? "bg-white/90 backdrop-blur-md shadow-md py-3" : "bg-transparent py-5"
       )}
     >
-      <div className="container mx-auto px-4 md:px-6">
+      <div className="container mx-auto  md:px-6">
         <div className="flex items-center justify-between">
           <a href="#home" className="flex items-center gap-2">
             <div className="w-10 h-10 bg-preschool-blue rounded-full flex items-center justify-center">
